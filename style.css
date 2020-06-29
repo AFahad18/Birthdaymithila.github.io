@@ -1,0 +1,635 @@
+*{
+    margin: 0;   padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #948E99;
+background: -webkit-linear-gradient(to right, #2E1437, #948E99);
+background: linear-gradient(to right, #2E1437, #948E99); 
+}
+h1{
+    color:white;
+    
+    
+    
+    
+    font-weight: bold;
+    font-family: fantasy;
+    margin: 18px;
+    padding: 18px;
+}
+.all{
+    display: flex;
+}
+.demo1{
+    background-image: url(2.png);
+    height:350px;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+    margin:18px 0px 0px 118px; 
+    background-size: cover;
+    background-position: center;
+    flex-basis: 33%;
+}
+.demo1:before{
+    content: "May Be They Best";
+    background-color: #8B3406;
+    width: 227px;
+    height: 350px;
+    position: absolute;
+    left: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.demo1:hover:before{
+    left: -227px;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+.demo1:after{
+    content: "Are Your Friend";
+    background-color: #8B3406;
+    width: 227px;
+    height: 350px;
+    position: absolute;
+    right: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.demo1:hover:after{
+    right: -227px;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+.demo2{
+    background-image: url(1.jpeg);
+    height:350px;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+    margin:18px 118px 0px 223px; 
+    background-size: cover;
+    background-position: center;
+    flex-basis: 33%
+}
+.demo2:before{
+    content: "Your Best";
+    background-color: #900C3F;
+    width: 227px;
+    height: 350px;
+    position: absolute;
+    left: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.demo2:hover:before{
+    left: -227px;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+.demo2:after{
+    content: "Friends";
+    background-color: #900C3F;
+    width: 227px;
+    height: 350px;
+    position: absolute;
+    right: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.demo2:hover:after{
+    right: -227px;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+
+.demo3{
+    background-image: url(3.jpeg);
+    height:600px;
+    width: 600px;
+    position: relative;
+    overflow: hidden;
+    margin:50px auto; 
+    background-size: cover;
+    background-position: center;
+}
+.demo3:before{
+    content: "Your Brother Is Actually Very Lucky";
+    background-color: #A22407;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.demo3:hover:before{
+    top: -600px;
+    transition-duration: 5s;
+    transition-delay: 1s;
+}
+.demo3:after{
+    content: "Because He Has A Sister Like You";
+    background-color: #A22407;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.demo3:hover:after{
+    bottom: -600px;
+    transition-duration: 5s;
+    transition-delay: 1s;
+}
+
+.all1{
+    display: flex;
+    margin-bottom: 58px;
+}
+.demo4{
+    background-image: url(4.jpg);
+    height:350px;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+    margin:18px 0px 0px 118px; 
+    background-size: cover;
+    background-position: center;
+    flex-basis: 33%;
+}
+.demo4:before{
+    content: "He Is Your And You Like";
+    background-color: #FF5733;
+    width: 227px;
+    height: 350px;
+    position: absolute;
+    left: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.demo4:hover:before{
+    left: -227px;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+.demo4:after{
+    content: "Area Friend Him A Lot";
+    background-color: #FF5733;
+    width: 227px;
+    height: 350px;
+    position: absolute;
+    right: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.demo4:hover:after{
+    right: -227px;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+.demo5{
+    background-image: url(5.jpeg);
+    height:350px;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+    margin:18px 118px 0px 223px; 
+    background-size: cover;
+    background-position:top;
+    flex-basis: 33%;
+}
+.demo5:before{
+    content: "Your Varsity (EAS)";
+    background-color: #F82305;
+    width: 227px;
+    height: 350px;
+    position: absolute;
+    left: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.demo5:hover:before{
+    left: -227px;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+
+.demo5:after{
+    content: "Good Friend";
+    background-color: #F82305;
+    width: 227px;
+    height: 350px;
+    position: absolute;
+    right: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.demo5:hover:after{
+    right: -227px;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+
+.demo6{
+    background-image: url(6.jpg);
+    height:600px;
+    width: 600px;
+    position: relative;
+    overflow: hidden;
+    margin:50px auto; 
+    background-size: cover;
+    background-position: center;
+}
+.demo6:before{
+    content: "Gorgeous, Pretty And";
+    background-color: #990033;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.demo6:hover:before{
+    top: -600px;
+    transition-duration: 5s;
+    transition-delay: 1s;
+}
+.demo6:after{
+    content: "Excellent Girl";
+    background-color: #990033;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.demo6:hover:after{
+    bottom: -600px;
+    transition-duration: 5s;
+    transition-delay: 1s;
+}
+
+.all2{
+    display: flex;
+    margin-bottom: 58px;
+}
+.demo7{
+    background-image: url(7.jpeg);
+    height:350px;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+    margin:18px 0px 0px 118px; 
+    background-size: cover;
+    background-position: center;
+    flex-basis: 33%;
+}
+.demo7:before{
+    content: "Apnar UIU R";
+    background-color: #660066;
+    width: 227px;
+    height: 350px;
+    position: absolute;
+    left: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.demo7:hover:before{
+    left: -227px;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+.demo7:after{
+    content: " Choto Vaita";
+    background-color: #660066;
+    width: 227px;
+    height: 350px;
+    position: absolute;
+    right: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.demo7:hover:after{
+    right: -227px;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+.demo8{
+    background-image: url(8.jpeg);
+    height:350px;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+    margin:18px 118px 0px 223px; 
+    background-size: cover;
+    background-position:top;
+    flex-basis: 33%;
+}
+.demo8:before{
+    content: "Apnar UIU R";
+    background-color: #800000;
+    width: 227px;
+    height: 350px;
+    position: absolute;
+    left: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.demo8:hover:before{
+    left: -227px;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+
+.demo8:after{
+    content: "Khalato Vai";
+    background-color: #800000;
+    width: 227px;
+    height: 350px;
+    position: absolute;
+    right: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.demo8:hover:after{
+    right: -227px;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+
+.demo9{
+    background-image: url(9.jpg);
+    height:600px;
+    width: 600px;
+    position: relative;
+    overflow: hidden;
+    margin:50px auto; 
+    background-size: cover;
+    background-position: center;
+}
+.demo9:before{
+    content: "Your Power Of Beauty Lies Within Your Soul And";
+    background-color: #990066;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.demo9:hover:before{
+    top: -600px;
+    transition-duration: 5s;
+    transition-delay: 1s;
+}
+.demo9:after{
+    content: "This Picture Is Worthy Of More Than Thousands Soul";
+    background-color: #990066;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.demo9:hover:after{
+    bottom: -600px;
+    transition-duration: 5s;
+    transition-delay: 1s;
+}
+
+.all3{
+    display: flex;
+    margin-bottom: 58px;
+}
+.demo10{
+    background-image: url(10.jpg);
+    height:350px;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+    margin:18px 0px 0px 118px; 
+    background-size: cover;
+    background-position: center;
+    flex-basis: 33%;
+}
+.demo10:before{
+    content: "Your Beauty And Your  Sword";
+    background-color: #85007a;
+    width: 227px;
+    height: 350px;
+    position: absolute;
+    left: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.demo10:hover:before{
+    left: -227px;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+
+.demo10:after{
+    content: "Is Your Power Smile Is Its";
+    background-color: #85007a;
+    width: 227px;
+    height: 350px;
+    position: absolute;
+    right: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.demo10:hover:after{
+    right: -227px;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+.demo11{
+    background-image: url(11.jpeg);
+    height:350px;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+    margin:18px 118px 0px 223px; 
+    background-size: cover;
+    background-position:top;
+    flex-basis: 33%;
+}
+.demo11:before{
+    content: "If You Are To Be Normal Know How Are.";
+    background-color: #800000;
+    width: 227px;
+    height: 350px;
+    position: absolute;
+    left: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.demo11:hover:before{
+    left: -227px;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+
+.demo11:after{
+    content: "Always Trying You'll Never Amazing You";
+    background-color: #800000;
+    width: 227px;
+    height: 350px;
+    position: absolute;
+    right: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 125px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.demo11:hover:after{
+    right: -227px;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+
+
+.demo12{
+    background-image: url(9.jpg);
+    height:600px;
+    width: 600px;
+    position: relative;
+    overflow: hidden;
+    margin:50px auto; 
+    background-size: cover;
+    background-position: center;
+}
+.demo12:before{
+    content: "Varsity R Friend R Vai Der Maje Ami Idiot ta E Hariye Gelam.Time E Nai Manush Tar Grp Niye Onk Busy.Jai Hok Ei Sb Bole LaV Nai. ";
+    background-color: #ff4700;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.demo12:hover:before{
+    top: -600px;
+    transition-duration: 5s;
+    transition-delay: 1s;
+}
+
+.demo12:after{
+    content: "CZ age Jemon Maje Maje Call diye Kotha Bolto Oi Time Ta R Kokhono Psbl na.Grp Chara Manush Tar Dekha E Paoa Jay NA,Bd Dei ei Sb.Main Hoilo=>HAPPY BIRTHDAY MITHI";
+    background-color: #ff4700;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 33px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.demo12:hover:after{
+    bottom: -600px;
+    transition-duration: 5s;
+    transition-delay: 1s;
+}

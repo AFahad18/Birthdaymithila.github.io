@@ -4,22 +4,27 @@
 }
 body{
     background: #948E99;
-background: -webkit-linear-gradient(to right, #2E1437, #948E99);
-background: linear-gradient(to right, #2E1437, #948E99); 
+    background: linear-gradient(to right, #2E1437,#800040); 
 }
 h1{
     color:white;
-    
-    
-    
-    
+    display: inline-block;
+    border: 3px solid #C78E65;
     font-weight: bold;
     font-family: fantasy;
-    margin: 18px;
     padding: 18px;
+    margin: 70px 0px 23px 0px ;
+}
+h1:hover{
+    box-shadow: 2px 1px 15px #95B9C7;
+    letter-spacing: 5px;
+	color: #FFF8C6;
+	transition-duration:1.9s;
+    transform: scale(1.2);
 }
 .all{
     display: flex;
+    margin: 18px 0px;
 }
 .demo1{
     background-image: url(2.png);
@@ -30,7 +35,13 @@ h1{
     margin:18px 0px 0px 118px; 
     background-size: cover;
     background-position: center;
-    flex-basis: 33%;
+    flex-basis: 34%;
+}
+.demo1:hover{
+    box-shadow: 0px 5px 15px whitesmoke;
+	transform: scale(1.2);
+	transition-duration:3s;
+    
 }
 .demo1:before{
     content: "May Be They Best";
@@ -50,6 +61,7 @@ h1{
     left: -227px;
     transition-duration: 3s;
     transition-delay: 1s;
+    color: #660066;
 }
 .demo1:after{
     content: "Are Your Friend";
@@ -69,6 +81,7 @@ h1{
     right: -227px;
     transition-duration: 3s;
     transition-delay: 1s;
+    color: #660066;
 }
 .demo2{
     background-image: url(1.jpeg);
@@ -80,6 +93,11 @@ h1{
     background-size: cover;
     background-position: center;
     flex-basis: 33%
+}
+.demo2:hover{
+    box-shadow: 0px 5px 15px whitesmoke;
+	transform: scale(1.2);
+	transition-duration:3s;
 }
 .demo2:before{
     content: "Your Best";
@@ -99,6 +117,7 @@ h1{
     left: -227px;
     transition-duration: 3s;
     transition-delay: 1s;
+    color: #660066;
 }
 .demo2:after{
     content: "Friends";
@@ -118,6 +137,7 @@ h1{
     right: -227px;
     transition-duration: 3s;
     transition-delay: 1s;
+    color: #660066;
 }
 
 .demo3{
@@ -126,9 +146,14 @@ h1{
     width: 600px;
     position: relative;
     overflow: hidden;
-    margin:50px auto; 
+    margin:70px auto; 
     background-size: cover;
     background-position: center;
+}
+.demo3:hover{
+    box-shadow: 0px 5px 15px whitesmoke;
+	transform: scale(1.2);
+	transition-duration:3s;
 }
 .demo3:before{
     content: "Your Brother Is Actually Very Lucky";
@@ -148,6 +173,7 @@ h1{
     top: -600px;
     transition-duration: 5s;
     transition-delay: 1s;
+    color: #660066;
 }
 .demo3:after{
     content: "Because He Has A Sister Like You";
@@ -167,6 +193,7 @@ h1{
     bottom: -600px;
     transition-duration: 5s;
     transition-delay: 1s;
+    color: #660066;
 }
 
 .all1{
@@ -183,6 +210,11 @@ h1{
     background-size: cover;
     background-position: center;
     flex-basis: 33%;
+}
+.demo4:hover{
+    box-shadow: 0px 5px 15px whitesmoke;
+	transform: scale(1.2);
+	transition-duration:3s;
 }
 .demo4:before{
     content: "He Is Your And You Like";
@@ -202,6 +234,7 @@ h1{
     left: -227px;
     transition-duration: 3s;
     transition-delay: 1s;
+    color: #660066;
 }
 .demo4:after{
     content: "Area Friend Him A Lot";
@@ -221,6 +254,7 @@ h1{
     right: -227px;
     transition-duration: 3s;
     transition-delay: 1s;
+    color: #660066;
 }
 .demo5{
     background-image: url(5.jpeg);
@@ -232,6 +266,11 @@ h1{
     background-size: cover;
     background-position:top;
     flex-basis: 33%;
+}
+.demo5:hover{
+    box-shadow: 0px 5px 15px whitesmoke;
+	transform: scale(1.2);
+	transition-duration:3s;
 }
 .demo5:before{
     content: "Your Varsity (EAS)";
@@ -251,6 +290,7 @@ h1{
     left: -227px;
     transition-duration: 3s;
     transition-delay: 1s;
+    color: #660066;
 }
 
 .demo5:after{
@@ -271,6 +311,7 @@ h1{
     right: -227px;
     transition-duration: 3s;
     transition-delay: 1s;
+    color: #660066;
 }
 
 .demo6{
@@ -279,9 +320,14 @@ h1{
     width: 600px;
     position: relative;
     overflow: hidden;
-    margin:50px auto; 
+    margin:70px auto; 
     background-size: cover;
     background-position: center;
+}
+.demo6:hover{
+    box-shadow: 0px 5px 15px whitesmoke;
+	transform: scale(1.2);
+	transition-duration:3s;
 }
 .demo6:before{
     content: "Gorgeous, Pretty And";
@@ -301,6 +347,7 @@ h1{
     top: -600px;
     transition-duration: 5s;
     transition-delay: 1s;
+    color: #660066;
 }
 .demo6:after{
     content: "Excellent Girl";
@@ -320,6 +367,7 @@ h1{
     bottom: -600px;
     transition-duration: 5s;
     transition-delay: 1s;
+    color: #660066;
 }
 
 .all2{
@@ -336,6 +384,11 @@ h1{
     background-size: cover;
     background-position: center;
     flex-basis: 33%;
+}
+.demo7:hover{
+    box-shadow: 0px 5px 15px whitesmoke;
+	transform: scale(1.2);
+	transition-duration:3s;
 }
 .demo7:before{
     content: "Apnar UIU R";
@@ -355,6 +408,7 @@ h1{
     left: -227px;
     transition-duration: 3s;
     transition-delay: 1s;
+    color: #660066;
 }
 .demo7:after{
     content: " Choto Vaita";
@@ -374,6 +428,7 @@ h1{
     right: -227px;
     transition-duration: 3s;
     transition-delay: 1s;
+    color: #660066;
 }
 .demo8{
     background-image: url(8.jpeg);
@@ -385,6 +440,11 @@ h1{
     background-size: cover;
     background-position:top;
     flex-basis: 33%;
+}
+.demo8:hover{
+    box-shadow: 0px 5px 15px whitesmoke;
+	transform: scale(1.2);
+	transition-duration:3s;
 }
 .demo8:before{
     content: "Apnar UIU R";
@@ -404,6 +464,7 @@ h1{
     left: -227px;
     transition-duration: 3s;
     transition-delay: 1s;
+    color: #660066;
 }
 
 .demo8:after{
@@ -424,6 +485,7 @@ h1{
     right: -227px;
     transition-duration: 3s;
     transition-delay: 1s;
+    color: #660066;
 }
 
 .demo9{
@@ -432,9 +494,14 @@ h1{
     width: 600px;
     position: relative;
     overflow: hidden;
-    margin:50px auto; 
+    margin:70px auto; 
     background-size: cover;
     background-position: center;
+}
+.demo9:hover{
+    box-shadow: 0px 5px 15px whitesmoke;
+	transform: scale(1.2);
+	transition-duration:3s;
 }
 .demo9:before{
     content: "Your Power Of Beauty Lies Within Your Soul And";
@@ -454,6 +521,7 @@ h1{
     top: -600px;
     transition-duration: 5s;
     transition-delay: 1s;
+    color: #660066;
 }
 .demo9:after{
     content: "This Picture Is Worthy Of More Than Thousands Soul";
@@ -473,6 +541,7 @@ h1{
     bottom: -600px;
     transition-duration: 5s;
     transition-delay: 1s;
+    color: #660066;
 }
 
 .all3{
@@ -489,6 +558,11 @@ h1{
     background-size: cover;
     background-position: center;
     flex-basis: 33%;
+}
+.demo10:hover{
+    box-shadow: 0px 5px 15px whitesmoke;
+	transform: scale(1.2);
+	transition-duration:3s;
 }
 .demo10:before{
     content: "Your Beauty And Your  Sword";
@@ -508,6 +582,7 @@ h1{
     left: -227px;
     transition-duration: 3s;
     transition-delay: 1s;
+    color: #660066;
 }
 
 .demo10:after{
@@ -529,6 +604,7 @@ h1{
     right: -227px;
     transition-duration: 3s;
     transition-delay: 1s;
+    color: #660066;
 }
 .demo11{
     background-image: url(11.jpeg);
@@ -540,6 +616,11 @@ h1{
     background-size: cover;
     background-position:top;
     flex-basis: 33%;
+}
+.demo11:hover{
+    box-shadow: 0px 5px 15px whitesmoke;
+	transform: scale(1.2);
+	transition-duration:3s;
 }
 .demo11:before{
     content: "If You Are To Be Normal Know How Are.";
@@ -559,6 +640,7 @@ h1{
     left: -227px;
     transition-duration: 3s;
     transition-delay: 1s;
+    color: #660066;
 }
 
 .demo11:after{
@@ -580,6 +662,7 @@ h1{
     right: -227px;
     transition-duration: 3s;
     transition-delay: 1s;
+    color: #660066;
 }
 
 
@@ -589,9 +672,14 @@ h1{
     width: 600px;
     position: relative;
     overflow: hidden;
-    margin:50px auto; 
+    margin:70px auto; 
     background-size: cover;
     background-position: center;
+}
+.demo12:hover{
+    box-shadow: 0px 5px 15px whitesmoke;
+	transform: scale(1.2);
+	transition-duration:3s;
 }
 .demo12:before{
     content: "Varsity R Friend R Vai Der Maje Ami Idiot ta E Hariye Gelam.Time E Nai Manush Tar Grp Niye Onk Busy.Jai Hok Ei Sb Bole LaV Nai. ";
@@ -611,6 +699,7 @@ h1{
     top: -600px;
     transition-duration: 5s;
     transition-delay: 1s;
+    color: #660066;
 }
 
 .demo12:after{
@@ -632,4 +721,5 @@ h1{
     bottom: -600px;
     transition-duration: 5s;
     transition-delay: 1s;
+    color: #660066;
 }

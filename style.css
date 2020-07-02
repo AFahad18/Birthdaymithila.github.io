@@ -723,3 +723,10 @@ h1:hover{
     transition-delay: 1s;
     color: #660066;
 }
+
+P{
+    font-size: 25px;
+    color: antiquewhite;
+    width: 980px;
+    margin: 18px auto;
+}
